@@ -1,0 +1,159 @@
+@media (min-width: 320px) { 
+    h1{
+        font-size: 22px;
+        text-align: center;
+    }
+    h3{
+        font-size : 20px;
+    }
+    .align{
+        font-size: 16px;
+        padding: 5px 10px;
+    }
+    .portfolio a{
+        display: block;
+    }
+    blockquote{
+        padding: 5px 0;
+    }
+    blockquote p{
+        font-size: 10px;
+    }
+    blockquote::before{
+        left: -40px;
+    }
+    blockquote::after{
+        right: -10px;
+    }
+    .contact form .col-md-6:first-child{
+        padding-right: 15px;
+        margin-bottom: 10px;
+    }
+    footer p{
+        font-size: 14px;
+    }
+    h2{
+        font-size: 50px;
+    }
+    
+ }
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 576px) { 
+    h1{
+        font-size: 38px;
+    }
+    h3{
+        font-size: 28px;
+    }
+    blockquote{
+        padding: 5px 0;
+    }
+    blockquote p{
+        font-size: 16px;
+    }
+    blockquote::before{
+        left: -40px;
+    }
+    blockquote::after{
+        right: -10px;
+    }
+    .contact form .col-md-6:first-child{
+        padding-right: 15px;
+        margin-bottom: 10px;
+    }
+    footer p{
+        font-size: 14px;
+    }
+    .portfolio a{
+        display: inline-block;
+    }
+    .align{
+        font-size: 25px;
+        padding: 15px 20px;
+    }
+ }
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (min-width: 768px) { 
+    h1{
+        font-size: 40px;
+    }
+    h3{
+        font-size: 30px;
+    }
+    .nav-link{
+        font-size: 16px;
+    }
+    p.lorem{
+        font-size: 14px;
+    }
+    .service .ser{
+        padding: 10px;
+    }
+    blockquote{
+        padding: 5px 0;
+    }
+    blockquote p{
+        font-size: 16px;
+    }
+    blockquote::before{
+        left: -40px;
+    }
+    blockquote::after{
+        right: -10px;
+    }
+    .portfolio img{
+        height: 200px;
+    }
+ }
+
+/* // Medium devices (tablets, less than 992px) */
+@media (min-width: 992px) { 
+    h1{
+        font-size: 60px;
+    }
+   h3{
+        font-size: 40px;
+    }
+    .particles-js{
+        height: 100%;
+    }
+    p.lorem{
+        font-size: 18px;
+    }
+    .service .ser{
+        padding: 20px;
+    }
+    .portfolio img{
+        height: 300px;
+    }
+    blockquote{
+        padding: 5px 0;
+    }
+    blockquote p{
+        font-size: 20px;
+    }
+    blockquote::before{
+        left: -20px;
+    }
+    blockquote::after{
+        right: 0px;
+    }
+    footer p{
+        font-size: 18px;
+    }
+    p.lorem{
+        font-size: 20px;
+    }
+ }
+
+/* // Large devices (desktops, less than 1200px) */
+@media (min-width: 1200px) { 
+    h1{
+        font-size: 100px;
+    }
+    h3{
+        font-size: 60px;
+    }
+ }
