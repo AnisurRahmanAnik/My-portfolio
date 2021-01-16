@@ -1,0 +1,131 @@
+/*pricing plan area start*/
+.pricing_plan{
+	text-align: center;
+	background: #282828;
+}
+.pricing_plan .main_h1{
+	font-size: 35px;
+	margin-top: 100px;
+	margin-bottom: 65px;
+	color: #d6c6b2;
+}
+.pricing_plan .all_col h3{
+	background: #000;
+	color: #fff;
+	font-size: 15px;
+	padding: 20px 0px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+}
+.pricing_plan .all_col{
+	background: #0c0808;
+	height: 400px;
+}
+.pricing_plan .all_col h1{
+	font-size: 50px;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+	color: #cccccc;
+	padding-bottom: 40px;
+
+}
+.pricing_plan .all_col h4{
+	font-size: 15px;													
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	margin-bottom: 28px;
+}
+.pricing_plan .all_col .h4{
+	font-size: 15px;													
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	margin-bottom: 50px; 
+}
+.pricing_plan .all_col img{
+	margin: 20px 0px;
+
+}
+.pricing_plan .all_col a{
+	margin-top: 40px;
+	padding: 15px 20px;
+	border: 2px solid #fff;
+	color: #fff;
+	margin-bottom: 40px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	border-radius: 5px;
+}
+.pricing_plan .all_col a:hover{
+	border: 2px solid #fff;
+	color: #fff;
+	background: #000;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	border-radius: 5px;
+	transition: .5s;
+}
+
+.pricing_plan .main_col{
+	margin-bottom: 100px;
+}
+
+.pricing_plan .all_colum h3{
+	background: #002631;
+	color: #fff;
+	font-size: 15px;
+	padding: 20px 0px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+}
+.pricing_plan .all_colum{
+	background: #000;
+	height: 400px;
+}
+.pricing_plan .all_colum h1{
+	font-size: 50px;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+	color: #614f4f;
+	padding-bottom: 40px;
+
+}
+.pricing_plan .all_colum h4{
+	font-size: 15px;													
+	font-family: 'Open Sans', sans-serif;
+	color: #614f4f;
+	margin-bottom: 28px;
+}
+.pricing_plan .all_colum .h4{
+	font-size: 15px;													
+	font-family: 'Open Sans', sans-serif;
+	color: #614f4f;
+	margin-bottom: 50px; 
+}
+.pricing_plan .all_colum img{
+	margin: 20px 0px;
+	box-shadow: 5px;
+
+}
+.pricing_plan .all_colum a{
+	margin-top: 40px;
+	padding: 15px 20px;
+	border: 2px solid #1f9ab9;
+	color: #fff;
+	margin-bottom: 40px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	border-radius: 5px;
+}
+.pricing_plan .all_colum a:hover{
+	border: 2px solid #000;
+	color: #fff;
+	border-radius: 5px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	background: #000;
+	transition: .5s;
+}
+.pricing_plan .main_colum{
+	margin-bottom: 100px;
+}
+/*pricing plan area end*/

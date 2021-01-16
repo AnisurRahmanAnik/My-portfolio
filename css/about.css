@@ -1,0 +1,139 @@
+.main-menu{
+    background: #151515;
+}
+
+section{
+    padding: 0px 0;
+  }
+.nav-link{
+  font-size: 23px;
+  color: #ffffff;
+  padding: 8px;
+  margin: 12px;
+  letter-spacing: .5px;
+  display: inline-block;
+}
+.nav-item{
+  display: inline-block;
+  margin-right:20px;
+  transition: all 0.5s ease
+}
+.select, .nav-item:hover .nav-link{
+  border-bottom: 3px solid rgb(0, 122, 235);
+}
+.nav-item:hover .nav-link{
+  color: #ffffff;
+}
+.navbar-brand{
+  font-size: 35px;
+  padding: 8px;
+  margin: 12px;
+  margin-top: 32px;
+  letter-spacing: .5px;
+  color: #ffffff;
+}
+.navbar-brand:hover{
+  color: #ffffff;
+}
+.carousel-inner .carousel-item img{
+    height: 600px;
+    width: 100%;
+}
+.carousel-inner .carousel-item .nav-btn a{
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 45px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.carousel-inner .carousel-item .nav-btn{
+    margin-bottom: 100px;
+}
+.carousel-inner{
+    background: #000;
+}
+.back{
+    opacity: .3;
+}
+.carousel-caption h3{
+    margin-bottom: 40px;
+}
+.carousel-caption h4{
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 70px;
+}
+/*about area start*/
+.about_area{
+    background: #282828;
+}
+.skills{
+  position: relative;
+  display: flex;
+  padding: 24px 10px 18px;
+  margin: 12px 0;
+  background: linear-gradient(#616161 0%, #333 10%, #222);
+  border: 2px solid #000000;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: .5s;
+  color: #ffffff;
+  transform: scale(0.9);
+}
+.img-fluid {
+    max-width: 100%;
+    height: 600px;
+}
+.skills::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background: rgba(255,255,255,.1);
+  z-index:10;
+}
+.skills .name{
+  position: relative;
+  width: 110px;
+  text-align: right;
+  margin-top: -2px;
+}
+.skills .value{
+  position: relative;
+  width: 40px;
+  text-align: left;
+  margin-top: -2px;
+}
+.skills .percent{
+  position: relative;
+  width: calc(100% - 150px);
+  margin: 0 10px;
+  border-radius: 8px;
+  background: #151515;
+  box-shadow : inset 0 0 10px #000;
+  overflow: hidden;
+}
+.skills .percent .progress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70%;
+  height: 100%;
+  border-radius: 10px;
+  background: #fff;
+  animation: animates 4s ease-in-out forwards;
+}
+@keyframes animates{
+  from{
+    width: 0%;
+  }
+}
+.prog:hover .skills{
+  opacity: 0.05;
+}
+.prog .skills:hover{
+  opacity: 1;
+  transform: scale(1);
+}

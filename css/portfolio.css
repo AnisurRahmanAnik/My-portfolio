@@ -1,0 +1,42 @@
+/* =================PORTFOLIO SECTION =================*/
+.portfolio{
+  background: #2e2e2e;
+  color: #ffffff;
+  text-align: center;
+}
+.portfolio p{
+  width: 800px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.portfolio a{
+  margin: 0 10px;
+  font-weight: bold;
+  color: #ffffff;
+  transition: .4s;
+}
+.portfolio .all{
+  padding: 10px 20px;
+  background: #007aeb;
+  color: #ffffff;
+  border-radius: 25px;
+}
+.portfolio a:hover{
+  color:#007aeb;
+}
+.portfolio .all:hover{
+  color: #ffffff;
+}
+a,a:hover{
+  text-decoration: none;
+}
+.portfolio img{
+  height: 300px;
+}
+.ovr1{
+  transform: scale(0);
+  transition: .8s;
+}
+.img1:hover .ovr1{
+  transform: scale(1);
+}

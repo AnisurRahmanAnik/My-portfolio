@@ -22,3 +22,14 @@ var typed = new Typed('.hello', {
     nav:false,
     mouseDrag:true
   });
+$(document).ready(function(){
+  $(".owl-carousel").owlCarousel({
+    'items': 1,
+    'margin': 20,
+    'loop': true,
+    'nav': true,
+    'dots': true,
+    'autoplay': true,
+    'autoplayTimeout': 1000,
+  });
+});
