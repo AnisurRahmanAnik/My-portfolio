@@ -157,3 +157,8 @@
         font-size: 60px;
     }
  }
+ @media (max-width: 575px){
+     .nav-link{
+         font-size: 14px;
+     }
+ }
