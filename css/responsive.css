@@ -1,18 +1,18 @@
 @media (min-width: 320px) { 
     h1{
-        font-size: 22px;
+        font-size: 20px;
         text-align: center;
     }
     h3{
-        font-size : 20px;
+        font-size : 16px;
     }
     .align{
-        font-size: 16px;
-        padding: 5px 10px;
+        font-size: 14px;
+        padding: 2px 5px;
     }
-    .portfolio a{
+    /* .portfolio a{
         display: block;
-    }
+    } */
     blockquote{
         padding: 5px 0;
     }
@@ -157,8 +157,29 @@
         font-size: 60px;
     }
  }
- @media (max-width: 575px){
+ @media (max-width: 576px){
      .nav-link{
+         font-size: 13px;
+     }
+     p.lorem{
+         text-align: center;
+     }
+     h2{
+         font-size: 30px;
+     }
+     .lorem1{
+         display: none;
+     }
+     .portfolio{
+         text-align: center;
+     }
+     .portfolio p{
+         text-align: center;
+         width: auto;
+     }
+     .portfolio a{
          font-size: 14px;
+         display: inline-block;
+         margin: 5px 10px;
      }
  }
